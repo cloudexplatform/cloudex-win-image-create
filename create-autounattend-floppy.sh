@@ -8,7 +8,7 @@ fi
 
 BASEDIR=$(dirname $0)
 
-FLOPPY_IMAGE=$BASEDIR/Autounattend.vfd
+FLOPPY_IMAGE=$BASEDIR/Autounattend-cloudex.vfd
 CONTENT_SRC=$BASEDIR/Autounattend.xml
 
 TMP_FLOPPY_IMAGE=`/bin/mktemp`
