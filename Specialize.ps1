@@ -13,7 +13,7 @@ try
     }
 
     $Host.UI.RawUI.WindowTitle = "Downloading wallpaper..."
-    $wallpaper = "Cloudex-Wallpaper-2014.png"
+    $wallpaper = "Wallpaper-Cloudbase-2013.png"
     (new-object System.Net.WebClient).DownloadFile("$baseUrl/$wallpaper", "$wallpaper_dir\$wallpaper")
 
     $Host.UI.RawUI.WindowTitle = "Configuring GPOs..."
